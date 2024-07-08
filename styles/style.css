@@ -195,8 +195,7 @@ main .skill-container .skill-description {
 }
 
 /* summary section start here */
-main .summary {
-}
+
 /* summary style in curriculum */
 
 main .summary .summary-title {
@@ -273,6 +272,10 @@ main .summary .job-description-list {
 
 hr {
   margin: 30px 0;
+}
+
+main .summary-btn{
+  margin-bottom: 113px;
 }
 /*CV download button */
 main .summary .cv-button {
