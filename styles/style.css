@@ -47,6 +47,7 @@
   }
   /* Header style */
   .header{
+    /* max-width: 1920px; */
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: 20px center , bottom right;
@@ -146,6 +147,7 @@ nav li a{
 /* Skills style */
 main{
   background-color: #f7f7f7;
+  padding: 10px;
 }
 
 main .skills{
@@ -192,4 +194,82 @@ main .skill-container .skill-title{
 }
 main .skill-container .skill-description{
   line-height: 28px;
+}
+
+
+/* summary section start here */
+main .summary{
+  
+}
+/* summary style in curriculum */
+
+main .summary .summary-title{
+  font-size: 35px;
+  font-weight: 700;
+  margin: 130px auto;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+/* curriculum section */
+
+main .summary .curriculum{
+  max-width: 1140px;
+  margin: 0 auto 50px auto;
+  justify-content: center;
+  display: flex;
+  column-gap: 71;
+}
+/* education style in curriculum*/
+
+main .summary .education-title{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+main .summary .degree{
+  max-width: 511px;
+}
+
+main .summary .degree-name{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+main .summary .session{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+main .summary .degree-description{
+  line-height: 28px;
+}
+
+/* job section */
+
+main .summary .experience-title{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+main .summary .job{
+  max-width: 511px;
+}
+
+main .summary .job-role{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+main .summary .duration{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+main .summary .job-description-list{
+  line-height: 28px;
+}
+/*CV download button */
+main .summary .cv-button{
+  text-align: center;
 }
