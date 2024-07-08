@@ -218,13 +218,14 @@ main .summary .curriculum{
   margin: 0 auto 50px auto;
   justify-content: center;
   display: flex;
-  column-gap: 71;
+  column-gap: 20px;
 }
 /* education style in curriculum*/
 
 main .summary .education-title{
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 main .summary .degree{
@@ -234,11 +235,13 @@ main .summary .degree{
 main .summary .degree-name{
   font-size: 25px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 main .summary .session{
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 main .summary .degree-description{
@@ -250,6 +253,7 @@ main .summary .degree-description{
 main .summary .experience-title{
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 main .summary .job{
@@ -259,11 +263,13 @@ main .summary .job{
 main .summary .job-role{
   font-size: 25px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 main .summary .duration{
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 main .summary .job-description-list{
