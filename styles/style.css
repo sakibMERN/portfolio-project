@@ -1,128 +1,127 @@
-
 .open-sans {
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    
-  }
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
 
-  /* Shared style */
-  .text-primary{
-    color: #FD6E0A
-  }
+/* Shared style */
+.text-primary {
+  color: #fd6e0a;
+}
 
-  .secondary-bg{
-    background-color: #FFF8F3;
-  }
+.secondary-bg {
+  background-color: #fff8f3;
+}
 
-  .main-section-title{
-    font-size: 35px;
-    font-weight: 700;
-    
-  }
+.main-section-title {
+  font-size: 35px;
+  font-weight: 700;
+}
 
-.main-section-description{
+.main-section-description {
   font-size: 18px;
   line-height: 30px;
 }
-  .dark-1{
-    color: #181818;
-  }
-  .dark-2{
-    color: #474747;
-  }
-  .dark-3{
-    color: #757575;
-  }
+.dark-1 {
+  color: #181818;
+}
+.dark-2 {
+  color: #474747;
+}
+.dark-3 {
+  color: #757575;
+}
 
-  .btn-primary{
-    background-color: #FD6E0A;
-    color: white;
-    font-size: 20px;
-    padding: 18px 35px 19px 36px;
-    border-radius: 5px;
-    border: none;
-  }
-  /* Header style */
-  .header{
-    /* max-width: 1920px; */
-    background-image: url("../images/developer.png"), url("../images/header_bg.png");
-    background-repeat: no-repeat;
-    background-position: 20px center , bottom right;
-    letter-spacing: 33%;
-  }
+.btn-primary {
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  padding: 18px 35px 19px 36px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-primary:hover{
+  cursor: pointer;
+}
+/* Header style */
+.header {
+  /* max-width: 1920px; */
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: 20px center, bottom right;
+  letter-spacing: 33%;
+}
 
 /* Nav styles */
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
-    padding: 17px 0;
-    margin-left: 259px;
-
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+  padding: 17px 0;
+  margin-left: 259px;
 }
 
-nav ul{
+nav ul {
   display: flex;
   align-items: center;
   margin-right: 197px;
 }
-nav ul li{
+nav ul li {
   list-style-type: none;
   margin-right: 51px;
 }
 
-nav li a{
+nav li a {
   text-decoration: none;
 }
 
 /* Banner style */
-.banner{
+.banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.banner .banner-content{
+.banner .banner-content {
   max-width: 585px;
   margin-left: 263px;
   margin-bottom: 0;
 }
 
-.banner .banner-content .banner-greeting{
+.banner .banner-content .banner-greeting {
   font-size: 45px;
-  font-weight: 600;  
+  font-weight: 600;
   margin-bottom: 13px;
 }
 
-.banner .banner-content .banner-title{
+.banner .banner-content .banner-title {
   font-size: 85px;
   font-weight: 700;
-  
 }
-.banner .banner-content .banner-description{
+.banner .banner-content .banner-description {
   font-size: 18px;
   line-height: 30px;
 }
 
-.banner .banner-profile-pic{
+.banner .banner-profile-pic {
   width: 584px;
 }
 
 /* Main styles */
 
-
 /* About styles */
 
-.about{
+.about {
   border: 1px solid black;
   text-align: center;
   max-width: 1140px;
@@ -130,27 +129,27 @@ nav li a{
   padding: 131px 156px;
   border-radius: 10px;
 }
-.about .about-items{
+.about .about-items {
   display: flex;
   justify-content: space-around;
 }
-.about .about-item{
+.about .about-item {
   font-size: 20px;
   line-height: 14px;
   text-align: center;
 }
 
-.about .about-item .item-description{
+.about .about-item .item-description {
   font-weight: bold;
 }
 
 /* Skills style */
-main{
+main {
   background-color: #f7f7f7;
   padding: 10px;
 }
 
-main .skills{
+main .skills {
   max-width: 1140px;
   /* background-color: lightblue; */
   margin: 130px auto;
@@ -159,19 +158,19 @@ main .skills{
   justify-content: center;
   align-items: center;   */
 }
-main .skill-container{
+main .skill-container {
   display: flex;
   justify-content: space-between;
   margin: 48px auto;
   gap: 24px;
 }
-main .skills .section-title{
+main .skills .section-title {
   font-size: 35px;
   font-weight: 700;
   text-align: center;
 }
 
-main .skills .section-description{
+main .skills .section-description {
   max-width: 909px;
   font-size: 18px;
   margin: auto;
@@ -179,31 +178,28 @@ main .skills .section-description{
 }
 
 /* skill list */
-main .skills .skill{
+main .skills .skill {
   /* max-width: 267px; */
   border-radius: 5px;
   background-color: #ffffff;
   padding: 30px 33px;
-  
 }
 
-main .skill-container .skill-title{
+main .skill-container .skill-title {
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
 }
-main .skill-container .skill-description{
+main .skill-container .skill-description {
   line-height: 28px;
 }
 
-
 /* summary section start here */
-main .summary{
-  
+main .summary {
 }
 /* summary style in curriculum */
 
-main .summary .summary-title{
+main .summary .summary-title {
   font-size: 35px;
   font-weight: 700;
   text-align: center;
@@ -212,7 +208,7 @@ main .summary .summary-title{
 
 /* curriculum section */
 
-main .summary .curriculum{
+main .summary .curriculum {
   max-width: 1140px;
   margin: 0 auto 50px auto;
   justify-content: center;
@@ -221,64 +217,98 @@ main .summary .curriculum{
 }
 /* education style in curriculum*/
 
-main .summary .education-title{
+main .summary .education-title {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-main .summary .degree{
+main .summary .degree {
   max-width: 511px;
 }
 
-main .summary .degree-name{
+main .summary .degree-name {
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-main .summary .session{
+main .summary .session {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-main .summary .degree-description{
+main .summary .degree-description {
   line-height: 28px;
 }
 
 /* job section */
 
-main .summary .experience-title{
+main .summary .experience-title {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-main .summary .job{
+main .summary .job {
   max-width: 511px;
 }
 
-main .summary .job-role{
+main .summary .job-role {
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-main .summary .duration{
+main .summary .duration {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-main .summary .job-description-list{
+main .summary .job-description-list {
   line-height: 28px;
 }
 
-hr{
+hr {
   margin: 30px 0;
 }
 /*CV download button */
-main .summary .cv-button{
+main .summary .cv-button {
   text-align: center;
 }
+
+/* Footer style */
+
+footer{
+  display: flex;
+  padding: 130px 230px;
+  gap: 117px;
+}
+
+footer .footer-column{
+  width: 50%;
+}
+
+footer .footer-title{
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer .footer-description{
+  line-height: 28px;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  display: block;
+}
+
+
