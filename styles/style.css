@@ -144,6 +144,9 @@ nav li a{
 }
 
 /* Skills style */
+main{
+  background-color: #f7f7f7;
+}
 
 main .skills{
   max-width: 1140px;
@@ -157,6 +160,7 @@ main .skills{
 main .skill-container{
   display: flex;
   justify-content: space-between;
+  margin: 48px auto;
   gap: 24px;
 }
 main .skills .section-title{
@@ -178,6 +182,7 @@ main .skills .skill{
   border-radius: 5px;
   background-color: #ffffff;
   padding: 30px 33px;
+  
 }
 
 main .skill-container .skill-title{
