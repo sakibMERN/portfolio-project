@@ -314,4 +314,9 @@ footer input[type="text"], footer input[type="email"], footer textarea {
   display: block;
 }
 
-
+.copyright{
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+  margin: 0 0 20px 0;
+}
