@@ -5,6 +5,14 @@
   margin: 0;
   padding: 0;
 }
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 /* Shared style */
 .text-primary {
@@ -133,6 +141,7 @@ nav li a {
   display: flex;
   justify-content: space-around;
 }
+
 .about .about-item {
   font-size: 20px;
   line-height: 14px;
@@ -141,6 +150,18 @@ nav li a {
 
 .about .about-item .item-description {
   font-weight: bold;
+}
+@media screen and (max-width:576px) {  
+
+  .about{
+    padding: 20px;
+  }
+  .about .about-items{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
 }
 
 /* Skills style */
@@ -151,12 +172,8 @@ main {
 
 main .skills {
   max-width: 1140px;
-  /* background-color: lightblue; */
   margin: 130px auto;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;   */
+  
 }
 main .skill-container {
   display: flex;
@@ -164,6 +181,7 @@ main .skill-container {
   margin: 48px auto;
   gap: 24px;
 }
+
 main .skills .section-title {
   font-size: 35px;
   font-weight: 700;
@@ -192,6 +210,14 @@ main .skill-container .skill-title {
 }
 main .skill-container .skill-description {
   line-height: 28px;
+}
+
+@media screen and (max-width:576px) {
+  main .skill-container{
+    flex-direction: column;
+    
+  }
+
 }
 
 /* summary section start here */
@@ -282,6 +308,16 @@ main .summary .cv-button {
   text-align: center;
 }
 
+@media screen and (max-width:576px) {
+  .curriculum{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+}
+
 /* Footer style */
 
 footer{
@@ -289,6 +325,8 @@ footer{
   padding: 130px 230px;
   gap: 117px;
 }
+
+
 
 footer .footer-column{
   width: 50%;
@@ -305,13 +343,34 @@ footer .footer-description{
 }
 
 footer input[type="text"], footer input[type="email"], footer textarea {
-  width: 80%;
+  width: 100%;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 20px;
   padding: 18px 30px;
   margin-bottom: 24px;
   display: block;
+}
+@media screen and (max-width:576px) {
+  footer{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    
+  }
+  footer .footer-column{
+    width: 100%;
+    
+  }
+  input[type="text"],
+  input[type="email"],
+  footer textarea {
+    width: 100%;
+    
+  }
+  .btn-primary{
+    width: 100%;
+  }
 }
 
 .copyright{
@@ -319,4 +378,8 @@ footer input[type="text"], footer input[type="email"], footer textarea {
   font-weight: 800;
   font-size: 25px;
   margin: 0 0 20px 0;
+}
+
+.hide{
+  display: none;
 }
