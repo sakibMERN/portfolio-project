@@ -56,7 +56,7 @@ body{
 }
 /* Header style */
 .header {
-  /* max-width: 1920px; */
+  max-width: 1920px;
   background-image: url("../images/developer.png"),
     url("../images/header_bg.png");
   background-repeat: no-repeat;
@@ -100,6 +100,8 @@ nav li a {
   align-items: center;
 }
 
+
+
 .banner .banner-content {
   max-width: 585px;
   margin-left: 263px;
@@ -123,6 +125,99 @@ nav li a {
 
 .banner .banner-profile-pic {
   width: 584px;
+}
+/* @media screen and (max-width: 576px) {
+  .header {
+    background-image: none;
+  }
+
+  nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-title {
+    margin-left: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .banner .banner-content {
+    max-width: 100%;
+    margin: 0;
+    border: none;
+    padding: 0 20px;
+  }
+
+  .banner .banner-content .banner-greeting {
+    font-size: 24px;
+  }
+
+  .banner .banner-content .banner-title {
+    font-size: 36px;
+  }
+
+  .banner .banner-content .banner-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .banner .banner-profile-pic {
+    width: 100%;
+    margin-top: 20px;
+  }
+} */
+@media screen and (max-width:576px) {
+  .header{
+   background-image: none;
+  }
+  nav{
+    flex-direction: column;
+  }
+  .nav-title{
+    margin: 10px auto;
+  }
+  nav ul{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
+  nav ul li{
+    margin: 10px 0;
+  }
+  .header .banner{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .banner .banner-content{
+    width: 100%;
+    margin: 0;
+  }
+  .btn-primary{
+    margin-top: 10px;
+  }
+  .banner .banner-profile-pic{
+    width: 100%;
+  }
 }
 
 /* Main styles */
@@ -309,6 +404,9 @@ main .summary .cv-button {
 }
 
 @media screen and (max-width:576px) {
+  main .summary .summary-title{
+    margin: 20px 0;
+  }
   .curriculum{
     flex-direction: column;
     justify-content: center;
@@ -359,9 +457,17 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     
   }
   footer .footer-column{
+    text-align: center;
     width: 100%;
     
   }
+  footer .img-icon{
+    text-align: center;
+  }
+  footer .img-icon a{
+    margin-right: 20px;
+  }
+  
   input[type="text"],
   input[type="email"],
   footer textarea {
